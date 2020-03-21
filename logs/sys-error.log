@@ -1,0 +1,19 @@
+15:04:52.046 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - [report,42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'spring.datasource.druid' to javax.sql.DataSource:
+
+    Property: spring.datasource.druid.maxevictableidletimemillis
+    Value: 900000
+    Origin: class path resource [application-druid.yml]:35:41
+    Reason: maxEvictableIdleTimeMillis must be grater than minEvictableIdleTimeMillis
+
+Action:
+
+Update your application's configuration
+

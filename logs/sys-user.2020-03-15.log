@@ -1,0 +1,8 @@
+14:25:32.493 [schedule-pool-1] INFO  sys-user - [run,108] - [127.0.0.1]内网IP[admin][Success][登录成功]
+15:04:49.896 [Thread-7] INFO  sys-user - [shutdownSpringSessionValidationScheduler,39] - ====关闭会话验证任务====
+15:05:44.065 [schedule-pool-1] INFO  sys-user - [run,108] - [127.0.0.1]内网IP[admin][Success][登录成功]
+15:20:20.830 [Thread-33] INFO  sys-user - [shutdownSpringSessionValidationScheduler,39] - ====关闭会话验证任务====
+15:20:20.834 [Thread-33] INFO  sys-user - [shutdownAsyncManager,56] - ====关闭后台任务任务线程池====
+15:21:05.653 [schedule-pool-1] INFO  sys-user - [run,108] - [127.0.0.1]内网IP[admin][Success][登录成功]
+15:42:47.514 [Thread-27] INFO  sys-user - [shutdownSpringSessionValidationScheduler,39] - ====关闭会话验证任务====
+15:42:47.517 [Thread-27] INFO  sys-user - [shutdownAsyncManager,56] - ====关闭后台任务任务线程池====

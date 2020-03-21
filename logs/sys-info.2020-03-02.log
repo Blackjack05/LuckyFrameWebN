@@ -1,0 +1,7 @@
+00:04:39.348 [Thread-10] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler LuckyFrameScheduler_$_buffetdeMacBook-Pro.local1583074986390 paused.
+00:04:39.365 [Thread-10] INFO  o.q.c.QuartzScheduler - [shutdown,666] - Scheduler LuckyFrameScheduler_$_buffetdeMacBook-Pro.local1583074986390 shutting down.
+00:04:39.365 [Thread-10] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler LuckyFrameScheduler_$_buffetdeMacBook-Pro.local1583074986390 paused.
+00:04:39.367 [Thread-10] INFO  o.q.c.QuartzScheduler - [shutdown,740] - Scheduler LuckyFrameScheduler_$_buffetdeMacBook-Pro.local1583074986390 shutdown complete.
+00:04:39.367 [Thread-10] INFO  sys-user - [shutdownSpringSessionValidationScheduler,39] - ====关闭会话验证任务====
+00:04:39.377 [Thread-10] INFO  sys-user - [shutdownAsyncManager,56] - ====关闭后台任务任务线程池====
+00:04:39.393 [Thread-10] INFO  c.a.d.p.DruidDataSource - [close,1825] - {dataSource-1} closed

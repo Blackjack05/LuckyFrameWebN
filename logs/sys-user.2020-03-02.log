@@ -1,0 +1,2 @@
+00:04:39.367 [Thread-10] INFO  sys-user - [shutdownSpringSessionValidationScheduler,39] - ====关闭会话验证任务====
+00:04:39.377 [Thread-10] INFO  sys-user - [shutdownAsyncManager,56] - ====关闭后台任务任务线程池====

@@ -1,0 +1,1 @@
+17:59:38.335 [main] INFO  o.s.b.d.r.RestartApplicationListener - [onApplicationStartingEvent,79] - Restart disabled due to System property 'spring.devtools.restart.enabled' being set to false

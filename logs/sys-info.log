@@ -1,0 +1,51 @@
+16:44:43.478 [restartedMain] INFO  c.l.LuckyFrameWebApplication - [logStarting,50] - Starting LuckyFrameWebApplication on buffetdeMacBook-Pro.local with PID 1338 (/Users/buffet/eclipse-workspace/LuckyFrameWeb-master/target/classes started by buffet in /Users/buffet/eclipse-workspace/LuckyFrameWeb-master)
+16:44:43.529 [restartedMain] INFO  c.l.LuckyFrameWebApplication - [logStartupProfileInfo,679] - The following profiles are active: druid
+16:44:46.931 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,158] - Cache with name 'com.luckyframe.framework.shiro.realm.UserRealm.authorizationCache' does not yet exist.  Creating now.
+16:44:46.932 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,165] - Added EhCache named [com.luckyframe.framework.shiro.realm.UserRealm.authorizationCache]
+16:44:48.155 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [loginRecordCache]
+16:44:49.306 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-80"]
+16:44:49.323 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:44:49.323 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+16:44:49.342 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/buffet/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+16:44:49.467 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:44:52.476 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+16:44:52.548 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1208] - Using default implementation for ThreadExecutor
+16:44:52.589 [restartedMain] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+16:44:52.589 [restartedMain] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.0 created.
+16:44:52.597 [restartedMain] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'LuckyFrameScheduler' with instanceId 'buffetdeMacBook-Pro.local1584780292559'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 50 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+16:44:52.598 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1362] - Quartz scheduler 'LuckyFrameScheduler' initialized from an externally provided properties instance.
+16:44:52.599 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1366] - Quartz scheduler version: 2.3.0
+16:44:52.603 [restartedMain] INFO  o.q.c.QuartzScheduler - [setJobFactory,2287] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@74fe1011
+16:44:54.432 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+16:44:55.259 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,147] - Context refreshed
+16:44:55.287 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,150] - Found 1 custom documentation plugin(s)
+16:44:55.384 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+16:44:55.591 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-80"]
+16:44:55.619 [restartedMain] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+16:44:55.644 [restartedMain] INFO  c.l.LuckyFrameWebApplication - [logStarted,59] - Started LuckyFrameWebApplication in 12.882 seconds (JVM running for 13.785)
+16:44:56.782 [Quartz Scheduler [LuckyFrameScheduler]] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler LuckyFrameScheduler_$_buffetdeMacBook-Pro.local1584780292559 started.
+16:45:10.927 [http-nio-80-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:45:10.969 [http-nio-80-exec-1] INFO  o.a.s.s.m.AbstractValidatingSessionManager - [enableSessionValidation,233] - Enabling session validation scheduler...
+16:45:11.007 [http-nio-80-exec-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,158] - Cache with name 'shiro-activeSessionCache' does not yet exist.  Creating now.
+16:45:11.009 [http-nio-80-exec-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,165] - Added EhCache named [shiro-activeSessionCache]
+16:45:11.973 [schedule-pool-1] INFO  c.l.f.s.w.s.OnlineWebSessionManager - [validateSessions,86] - invalidation sessions...
+16:45:12.005 [schedule-pool-1] INFO  c.l.f.s.w.s.OnlineWebSessionManager - [validateSessions,145] - Finished invalidation session. No sessions were stopped.
+16:45:13.770 [schedule-pool-1] INFO  sys-user - [run,108] - [127.0.0.1]内网IP[admin][Success][登录成功]
+16:55:11.982 [schedule-pool-2] INFO  c.l.f.s.w.s.OnlineWebSessionManager - [validateSessions,86] - invalidation sessions...
+16:55:12.029 [schedule-pool-2] INFO  c.l.f.s.w.s.OnlineWebSessionManager - [validateSessions,145] - Finished invalidation session. [1] sessions were stopped.
+17:05:11.992 [schedule-pool-1] INFO  c.l.f.s.w.s.OnlineWebSessionManager - [validateSessions,86] - invalidation sessions...
+17:05:12.013 [schedule-pool-1] INFO  c.l.f.s.w.s.OnlineWebSessionManager - [validateSessions,145] - Finished invalidation session. No sessions were stopped.
+17:06:14.124 [Thread-12] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler LuckyFrameScheduler_$_buffetdeMacBook-Pro.local1584780292559 paused.
+17:06:14.149 [Thread-12] INFO  o.q.c.QuartzScheduler - [shutdown,666] - Scheduler LuckyFrameScheduler_$_buffetdeMacBook-Pro.local1584780292559 shutting down.
+17:06:14.150 [Thread-12] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler LuckyFrameScheduler_$_buffetdeMacBook-Pro.local1584780292559 paused.
+17:06:14.154 [Thread-12] INFO  o.q.c.QuartzScheduler - [shutdown,740] - Scheduler LuckyFrameScheduler_$_buffetdeMacBook-Pro.local1584780292559 shutdown complete.
+17:06:14.154 [Thread-12] INFO  sys-user - [shutdownSpringSessionValidationScheduler,39] - ====关闭会话验证任务====
+17:06:14.160 [Thread-12] INFO  sys-user - [shutdownAsyncManager,56] - ====关闭后台任务任务线程池====
+17:06:14.174 [Thread-12] INFO  c.a.d.p.DruidDataSource - [close,1825] - {dataSource-1} closed
